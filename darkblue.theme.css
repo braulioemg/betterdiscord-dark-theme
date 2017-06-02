@@ -268,9 +268,6 @@
 .alert.form .form-inner p {
     color: #f6f6f7;
 }
-.form .form-inner {
-    background-color: #535559;
-}
 .alert.form .form-inner h4 {
     color: #94a6e4;
 }
@@ -310,29 +307,33 @@
 .theme-dark.context-menu .item:hover {
     background: #1d283c;
 }
-.form .form-inner {
-    background-color: #6275b9;
-}
 #instant-invite-modal .form-header header {
-    color: #f6f6f7;
+    color: #7289da;
+}
+#instant-invite-modal .blurb {
+    color: #7289da;
 }
 #instant-invite-modal .form-header {
-    background-color: #465488;
+    background-color: #040a10;
+    padding-bottom: 20px;
 }
 .form .form-inner {
-    background-color: #6275b9;
+    background-color: #191b1f;
+    color: #99aab5;
 }
 #instant-invite-modal .form-actions {
-    background-color: #6275b9;
+    background-color: #040a10;
 }
 .checkbox {
-    color: white;
+    color: #7289da;
 }
 #instant-invite-modal-advanced .form-actions {
     background-color: #6275b9;
 }
-.form .btn-primary {
-    background-color: #7b92e4;
+.form .btn-primary, .buttonBrandFilled-3Mv0Ra {
+    background-color: transparent;
+    border: 1px solid #264ede;
+    color: #7992e8;
 }
 #instant-invite-modal-advanced .form-actions .btn-default {
     color: #ffffff;
@@ -344,7 +345,7 @@
     color: #c6d3ff;
 }
 .form .btn-default:hover {
-    border-bottom: 2px solid #00e7ff;
+    border-bottom: 2px solid #264ede;
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     background-color: #43b581;
@@ -378,14 +379,13 @@
 .create-guild-container .action {
     background: hsla(0, 0%, 100%, 0.84);
 }
-.form .form-inner {
-    background-color: rgba(98, 117, 185, 0.44);
-}
 .form .form-actions {
-    background-color: rgba(249,249,249,0.44);
+    background-color: #040a10;
+    border-top: 1px solid #040a10;
 }
 .form .btn-default {
     background-color: rgba(249, 249, 249, 0);
+    border-bottom: 2px solid #7289da;
 }
 #rtc-connection .rtc-connection-status-connected {
     color: #1cf7b2;
@@ -433,7 +433,7 @@
     background: #20242a;
 }
 .markdown-modal {
-    background-color: #282b30;
+    background-color: #040a10;
 }
 .callout-backdrop {
     background-color: #040e19 !important;
@@ -592,23 +592,22 @@
     background-color: #183558;
 }
 .form .control-group label {
-    color: #384573;
-}
-.checkbox {
-    color: black;
+    color: #7289da;
 }
 .form .control-group .help-text {
-    color: #191919;
+    color: #7289da;
 }
 .checkbox .checkbox-inner span {
     border: 2px solid #6275b9;
 }
-.form .btn-primary:hover {
-    background-color: #3b5aca;
+.form .btn-primary:hover, .buttonBrandFilled-3Mv0Ra:hover {
+    background-color: #264ede;
+    border: 1px solid #264ede;
+    color: white;
 }
 #instant-invite-modal-advanced .form-actions {
     padding-top: 20px;
-    background-color: rgb(98, 117, 185);
+    background-color: #040a10;
 }
 .context-menu {
     background: #151515;
@@ -631,13 +630,13 @@
     color: #afb4bb;
 }
 .need-help-modal .form-inner .failed p {
-    color: #35426f;
+    color: #7289da;
 }
 .guild-header.popout-open header {
     background-color: rgb(16, 23, 33);
 }
 #instant-invite-modal .expire-text {
-    color: #000000;
+    color: #869be6;
 }
 .theme-dark .chat .has-more button {
     background: #0e141d;
@@ -730,4 +729,121 @@
 }
 .search-bar.search-bar-light input {
     color: #86b8de;
+}
+.colorDefaultText-2v6rRX, .colorDefaultVoice-1x4dEl, .colorHoveredText-1CsxK1, .colorHoveredVoice-1P3kui, .colorLockedText-2onHWv, .colorLockedVoice-2VCSgk, .colorSelectedText-3YhFC6, .colorSelectedVoice-ieXC3Z, .colorUnreadText-1KwCnP, .colorUnreadVoice-1Ztv9I {
+    fill: #247afb;
+}
+.Select-control {
+    background-color: #282b30;
+}
+.form .Select-control {
+    border: 1px solid #191b1f;
+}
+.has-value>.Select-control>.Select-placeholder {
+    color: #b8c3ec;
+}
+.instant-invite-modal {
+    background: #040a10;
+}
+#instant-invite-modal .copy {
+    background-color: #19369e;
+}
+#instant-invite-modal .clipboard-input-inner input {
+    color: #faa61a;
+    background-color: #2e3136;
+    border: 1px solid #2e3136;
+}
+.clipboard-input-inner button:first-of-type:before {
+    background: linear-gradient(to right,hsla(217, 8%, 20%, 0),rgba(46, 49, 54, 0));
+}
+.clipboard-input-inner button {
+    border-left: 1px solid #19369e;
+}
+.form .form-header {
+    color: #7289da;
+    background: #040a10;
+    border-bottom: 1px solid #191b1f;
+}
+.form .control-group input[type=email], .form .control-group input[type=number], .form .control-group input[type=password], .form .control-group input[type=text], .form .control-group textarea {
+    color: #ccd2e8;
+    border-bottom: 1px solid #282b30;
+    background-color: #282b30;
+}
+.modal-content {
+    background-color: #040a10;
+}
+.modal-content .form-inner p {
+    color: #99aab5;
+}	
+.form .btn.red {
+    background-color: #040a10;
+    color: #f36c6c;
+    border: 1px solid #f36c6c;
+}
+.form .btn.red:hover {
+    background-color: #f04747;
+    color: white;
+    border: 1px solid #f36c6c;
+}
+.theme-dark .ui-popout-list {
+    background: #0c1119;
+}
+.theme-dark .ui-search-bar {
+    background-color: #202225;
+}
+.clipboard-input-inner {
+    border: 1px solid #191b1f;
+}
+.ui-switch-checkbox:checked+.ui-switch {
+    background: #43b581;
+}
+.buttonGreenFilled-6QHNrw {
+    color: #43b581;
+    background-color: transparent;
+    border: 1px solid #43b581;
+}
+.buttonGreenFilledDefault-_lLQaz:hover {
+    background-color: #43b581;
+    color: white;
+    border: 1px solid #43b581;
+}
+.need-help-modal .footer {
+    background-color: #040a10;
+    border-top: 1px solid #040a10;
+}
+.need-help-modal .header {
+    background-color: #040a10;
+}
+.need-help-modal .header h1 {
+    color: #7289da;
+}
+.need-help-modal .header input[type=text] {
+    box-shadow: 0 2px 1px #43b581;
+}
+.need-help-modal .header input[type=text]:focus {
+    border-bottom: 1px solid #43b581;
+}
+.need-help-modal a:hover {
+    color: #00ff6f;
+}
+.markdown-modal .markdown-modal-footer {
+    border-top: 1px solid #040a10;
+    background-color: #040a10;
+}
+.markdown-modal .scroller-wrap {
+    background-color: #191b1f;
+}
+.markdown-modal .markdown-modal-header {
+    border-bottom: 1px solid #040a10;
+    background-color: #040a10;
+}
+.change-log .changelog-added, .change-log .changelog-added-secondary {
+    background-color: #00ce70;
+}
+.ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
+    background: #1c2635;
+    border-top: 1px solid #1c2635;
+}
+.ui-standard-sidebar-view .bda-slist li {
+    border-bottom: 1px solid #1c2635;
 }
