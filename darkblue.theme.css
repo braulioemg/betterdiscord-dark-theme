@@ -421,7 +421,7 @@
     background: #578dbd;
 }
 .user-popout .footer {
-    background: #7289da;
+    background: #0c1638;
 }
 .protip .label {
     color: #00ff6f;
@@ -846,4 +846,22 @@
 }
 .ui-standard-sidebar-view .bda-slist li {
     border-bottom: 1px solid #1c2635;
+}
+.avatarSpeaking-3teDH6 {
+    box-shadow: 0 0 0 2px #00b8ff, inset 0 0 0 1.5px #2f3136;
+}
+.wrapperSelectedVoice-1Q1ocJ {
+    background: linear-gradient(to right,#183567 85%,#101721);
+    border-left: 3px solid #00b0f4;
+    border-radius: 3px;
+}
+.user-popout .header {
+    background: #0c1638;
+}
+.user-popout .avatar-wrapper .avatar-popout {
+    border: 4px solid #0c1638;
+    background-color: #0c1638;
+}
+.user-popout .avatar-wrapper .avatar-hint {
+    box-shadow: inset 0 0 120px #0c1638;
 }
