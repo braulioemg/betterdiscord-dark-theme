@@ -406,8 +406,8 @@
     background-color: rgb(244, 121, 31);
 }
 #user-profile-modal .guilds .section .connected-accounts .connected-account {
-    border: 1px solid #345b73;
-    background-color: #234356;
+    border: 1px solid #191b1f;
+    background-color: #141519;
 }
 #user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
     color: #ffffff;
@@ -797,12 +797,12 @@
 .ui-switch-checkbox:checked+.ui-switch {
     background: #43b581;
 }
-.buttonGreenFilled-6QHNrw {
+.buttonGreenFilled-6QHNrw, #user-profile-modal .actions .btn.add-friend {
     color: #43b581;
     background-color: transparent;
     border: 1px solid #43b581;
 }
-.buttonGreenFilledDefault-_lLQaz:hover {
+.buttonGreenFilledDefault-_lLQaz:hover, #user-profile-modal .actions .btn.add-friend:hover {
     background-color: #43b581;
     color: white;
     border: 1px solid #43b581;
@@ -889,4 +889,7 @@
 }
 #user-profile-modal .guilds .guild .status {
     border: 2px solid rgba(255, 255, 255, 0);
+}
+#user-profile-modal .guilds .section+.section {
+    border-top: 1px solid #23252b;
 }
