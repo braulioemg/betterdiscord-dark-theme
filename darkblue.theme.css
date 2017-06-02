@@ -50,20 +50,20 @@
     background: #101721;
 }
 #user-profile-modal .header {
-    background-color: #5d98d2;	
+    background-color: #353840;
 }
 #user-profile-modal .header:after {
-    background-image: linear-gradient(-180deg,hsla(0,0%,100%,0),#2d5167);
+    background-image: linear-gradient(-180deg,hsla(0,0%,100%,0),#040a10);
 }
 #user-profile-modal .scroller {
-    background: #2d5167;
+    background: #191b1f;
 }
 #user-profile-modal .tab-bar-container {
-    background-color: #234356;
-    border-bottom: 1px solid #2d5167;
+    background-color: #040a10;
+    border-bottom: 1px solid #040a10;
 }
 #user-profile-modal .tab-bar .tab-bar-item.selected {
-    border-bottom-color: #faa61a;
+    border-bottom-color: #00b0f4;
     color: #ffffff;
 }
 #user-profile-modal .tab-bar .tab-bar-item {
@@ -73,7 +73,7 @@
     color: #ffffff;
 }
 #user-profile-modal .guilds .guild:hover {
-    background: linear-gradient(to right,#427390 90%,#2d5167);
+    background: linear-gradient(to right,#30333b 90%,#191b1f);
     color: #ffffff;
 }
 .guilds-wrapper {
@@ -365,7 +365,7 @@
     color: rgba(231, 239, 255, 0.9);
 }
 .note textarea:focus {
-    background: #315871;
+    background: #2b2e35;
 }
 .guilds-wrapper .guilds-add {
     background: #0c1119;
@@ -439,7 +439,7 @@
     background-color: #040e19 !important;
 }
 #user-profile-modal .empty {
-    background: #2d5167;
+    background: #191b1f;
 }
 #user-profile-modal .empty .empty-text {
     color: #dcddde;
@@ -883,4 +883,10 @@
 }
 .member-roles .manipulate:hover:not(.invert) {
     border-color: #314790;
+}
+.bot-tag.bot-tag-invert {
+    background: hsla(0, 0%, 100%, 0.13);
+}
+#user-profile-modal .guilds .guild .status {
+    border: 2px solid rgba(255, 255, 255, 0);
 }
