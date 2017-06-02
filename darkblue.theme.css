@@ -865,3 +865,22 @@
 .user-popout .avatar-wrapper .avatar-hint {
     box-shadow: inset 0 0 120px #0c1638;
 }
+.user-popout .body {
+    background: #0f1c46;
+}
+.user-popout .footer {
+    border-top: 1px solid #0c1638;
+}
+.quick-message {
+    border: 1px solid #132150;
+    background: #132150;
+    color: white;
+}
+.member-roles .member-role {
+    background-color: #0c1638;
+    border: 1px solid #0f1c46;
+    color: #b9c3ce;
+}
+.member-roles .manipulate:hover:not(.invert) {
+    border-color: #314790;
+}
