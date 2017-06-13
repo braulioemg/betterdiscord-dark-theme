@@ -661,8 +661,8 @@
 .icon-3rMtHF, .icon-3dhTrw {
     fill: #70aeff;
 }
-.contentSelectedText-3j5CXt {
-    background: linear-gradient(to right,#183567 85%,#101721);
+.contentSelectedText-3j5CXt, .itemDefaultSelected-1UAWLe {
+    background: linear-gradient(to right,#183567 85%,transparent);
     border-left: 3px solid #00b0f4;
 }
 #autocomplete-popout .row.selected, #autocomplete-popout .row:hover {
@@ -776,12 +776,12 @@
 .modal-content .form-inner p {
     color: #99aab5;
 }	
-.form .btn.red, .ui-tab-bar.SIDE .ui-tab-bar-item.danger {
+.form .btn.red, .ui-tab-bar.SIDE .ui-tab-bar-item.danger, .channel-textarea-guard button {
     background-color: transparent;
     color: #f36c6c;
     border: 1px solid #f36c6c;
 }
-.form .btn.red:hover, .ui-tab-bar.SIDE .ui-tab-bar-item.danger:hover {
+.form .btn.red:hover, .ui-tab-bar.SIDE .ui-tab-bar-item.danger:hover, .channel-textarea-guard button:hover {
     background-color: #f04747;
     color: white;
     border: 1px solid #f36c6c;
@@ -803,10 +803,13 @@
     background-color: transparent;
     border: 1px solid #43b581;
 }
-.buttonGreenFilledDefault-_lLQaz:hover, #user-profile-modal .actions .btn.add-friend:hover, .create-guild-container .action.join .btn:hover {
+.buttonGreenFilledDefault-_lLQaz:hover, #user-profile-modal .actions .btn.add-friend:hover, .create-guild-container .action.join .btn:hover, .switch-3lyafC.checked-7qfgSb {
     background-color: #43b581;
     color: white;
     border: 1px solid #43b581;
+}
+.switchWrapperDefaultActive-2IdHq2:hover .switch-3lyafC.checked-7qfgSb {
+    background: #35966a;
 }
 .need-help-modal .footer {
     background-color: #040a10;
@@ -929,6 +932,32 @@
 .private-channels .channel.selected a, .private-channels .channel:hover a {
     background-color: rgba(79, 84, 92, 0);
 }
-.badge, .new-messages-indicator.new-messages-indicator-mention {
+.badge, .new-messages-indicator.new-messages-indicator-mention, .wrapper-2xO9RX {
     background-color: #faa61a;
+}
+.theme-dark .message-group.is-local-bot-message {
+    background: #1d232d;
+    box-shadow: none;
+}
+.nameSpeaking-3ROx9q {
+    color: #a5f3ff;
+}
+.popout header, .popout section {
+    background-color: rgb(12, 17, 25);
+}
+.theme-dark .cardPrimaryEditable-2IQ7-V, .theme-dark .cardPrimary-ZVL9Jr {
+    background: rgb(23, 27, 35);
+    border-color: #202225;
+}
+.theme-dark .itemDefault-3NDwnY:hover {
+    background-color: rgba(24, 53, 103, 0.28);
+}
+.theme-dark .header-3sp3cE, .theme-dark .separator-NBIcXB {
+    background-color: #040a10;
+}
+.theme-dark .modal-3HOjGZ {
+    background-color: #191b1f;
+}
+.header-1tSljs {
+    border-bottom: 1px solid #00b0f4;
 }
