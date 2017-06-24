@@ -327,7 +327,7 @@
 #instant-invite-modal-advanced .form-actions {
     background-color: #6275b9;
 }
-.form .btn-primary, .buttonBrandFilled-3Mv0Ra {
+.form .btn-primary, .buttonBrandFilled-3Mv0Ra, .upload-modal .footer .button-primary {
     background-color: transparent !important;
     border: 1px solid #264ede;
     color: #7992e8 !important;
@@ -595,7 +595,7 @@
 .checkbox .checkbox-inner span {
     border: 2px solid #6275b9;
 }
-.form .btn-primary:hover, .buttonBrandFilled-3Mv0Ra:hover {
+.form .btn-primary:hover, .buttonBrandFilled-3Mv0Ra:hover, .upload-modal .footer .button-primary:hover {
     background-color: #264ede !important;
     border: 1px solid #264ede !important;
     color: white !important;
@@ -963,7 +963,8 @@
     background-color: #040a10;
 }
 .theme-dark .modal-3HOjGZ, .notification-settings-modal.deprecated-settings-modal .settings-inner:first-child, .deprecated-settings-modal .settings-actions,
-.radio .radio-inner, .flex-horizontal>.flex-spacer, .theme-dark .container-a2vS7i, .theme-dark .reactors-2PjMP0, .search-popout .search-query {
+.radio .radio-inner, .flex-horizontal>.flex-spacer, .theme-dark .container-a2vS7i, .theme-dark .reactors-2PjMP0, .search-popout .search-query, .upload-modal,
+.upload-drop-modal .bgScale {
     background-color: #191b1f;
 }
 .header-1tSljs {
@@ -975,7 +976,7 @@
 .inner-tqJwAU {
     padding: 20px 12px 0 20px;
 }
-.theme-dark .footer-1PYmcw, .theme-dark .sidebar-32BRdp {
+.theme-dark .footer-1PYmcw, .theme-dark .sidebar-32BRdp, .upload-modal .footer {
     background-color: rgb(4, 10, 16);
 }
 .notification-settings-modal .notification-settings-modal-channel-settings-list {
@@ -990,10 +991,10 @@
 .flex-horizontal>.flex-spacer {
     background-color: #1d232d;
 }
-.form.deprecated .Select-control, .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+.form.deprecated .Select-control, .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece, .upload-modal .inner .file .icon.image {
     border: none;
 }
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece, .upload-modal .footer .button {
     background-color: transparent;
 }
 .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track,
@@ -1060,4 +1061,10 @@
     background: #16202f;
     border-left: 3px solid #00b0f4;
     border-radius: 4px;
+}
+.upload-modal .inner, .upload-drop-modal .inner {
+    border: 2px dashed #72767d;
+}
+.upload-drop-modal .inner .title {
+    color: #3a71c1;
 }
