@@ -727,17 +727,17 @@
     color: #86b8de;
 }
 .colorDefaultText-2v6rRX, .colorDefaultVoice-1x4dEl, .colorHoveredText-1CsxK1, .colorHoveredVoice-1P3kui, .colorUnreadText-1KwCnP, .colorUnreadVoice-1Ztv9I {
-    fill: #247afb;
+    color: #247afb !important;
 }
 .colorSelectedText-3YhFC6, .colorSelectedVoice-ieXC3Z {
-    fill: #00b0f4;
+    color: #00b0f4 !important;
     opacity: 1 !important;
 }
 .colorLockedVoice-2VCSgk {
-    fill: #a7a7a7;
+    color: #a7a7a7 !important;
 }
 .nameLockedVoice-wNOMNa {
-    color: #464a51;
+    color: #464a51 !important;
 }
 .Select-control {
     background-color: #282b30;
@@ -1067,4 +1067,20 @@
 }
 .upload-drop-modal .inner .title {
     color: #3a71c1;
+}
+.message-group .mentioned .message-text:after {
+    border-left: 4px solid #4369c1;
+}
+.user-popout .header.streaming .avatar-popout {
+    border-color: #1b0c38;
+    background-color: #1b0c38;
+}
+.user-popout .header.streaming {
+    background-color: #0c1638;
+    background-image: none;
+    padding: 0;
+}
+.user-popout .header.streaming .live-on-twitch, .user-popout .header.streaming .live-on-twitch:hover {
+    cursor: pointer;
+    background: linear-gradient(120deg,#2d1856 0,#162861 100%);
 }
