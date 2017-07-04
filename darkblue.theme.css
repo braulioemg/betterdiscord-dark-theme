@@ -534,7 +534,7 @@
     color: #13f7a8;
 }
 .tooltip {
-    background-color: #102344;
+    background: linear-gradient(120deg,#35348c 0,#17499e 100%);
 }
 .popout-menu {
     background: #0c1119;
