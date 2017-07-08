@@ -533,7 +533,7 @@
 #rtc-connection-popout .secured {
     color: #13f7a8;
 }
-.tooltip {
+.tooltip, .slider-handle span {
     background: linear-gradient(120deg,#35348c 0,#17499e 100%);
 }
 .popout-menu {
@@ -994,7 +994,7 @@
 .form.deprecated .Select-control, .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece, .upload-modal .inner .file .icon.image {
     border: none;
 }
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece, .upload-modal .footer .button {
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece, .upload-modal .footer .button, .theme-brand .inner-3if5cm {
     background-color: transparent;
 }
 .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track,
@@ -1048,16 +1048,16 @@
 .theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb {
     border: 3px solid #0c1119!important;
 }
-.theme-dark .channel-textarea-autocomplete-inner header {
+.theme-dark .channel-textarea-autocomplete-inner header, .selector-nbyEfM {
     border-bottom-color: #040a10;
     background-color: #040a10;
     color: #ffffff;
 }
-.theme-dark .channel-textarea-autocomplete-inner {
+.theme-dark .channel-textarea-autocomplete-inner, .theme-dark .autocomplete-1TnWNR, .selectable-3iSmAf {
     background-color: #0c1119;
     border-color: #040a10;
 }
-.theme-dark .channel-textarea-autocomplete-inner ul li.active {
+.theme-dark .channel-textarea-autocomplete-inner ul li.active, .theme-dark .selectorSelected-2M0IGv {
     background: #16202f;
     border-left: 3px solid #00b0f4;
     border-radius: 4px;
@@ -1083,4 +1083,18 @@
 .user-popout .header.streaming .live-on-twitch, .user-popout .header.streaming .live-on-twitch:hover {
     cursor: pointer;
     background: linear-gradient(120deg,#2d1856 0,#162861 100%);
+}
+.slider-handle span {
+    color: #e0e0e0;
+    border: 1px solid transparent;
+}
+.slider-handle span:after {
+    border-top-color: #3a71c1;
+}
+.theme-dark .inner-3if5cm {
+    background-color: hsl(218, 22%, 15%);
+    border: 1px solid #272d35;
+}
+.primary400-1OkqpL {
+    color: #00b0f4;
 }
