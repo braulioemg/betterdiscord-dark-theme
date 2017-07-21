@@ -1,4 +1,4 @@
-//META{"name":"Dark Blue Theme","description":"Dark, blue theme for BetterDiscord","author":"redslime#8503","version":"1.1"}*//
+//META{"name":"Dark Blue Theme","description":"Dark, blue theme for BetterDiscord","author":"redslime#8503","version":"1.2"}*//
 @-webkit-keyframes line {  
   0% { border-color: #00b0f4; }
   33% { border-color: #00ff6f; }
@@ -80,7 +80,11 @@
     border-color: #151e2d;
 }
 .guilds-wrapper .guilds .guild.unread:before {
-    background: #99aab5;
+    background: #e0961c;
+    -webkit-animation: unread 2s ease-in-out infinite;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: -20px;
 }
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted) a {
     color: #79b0ff;
@@ -988,7 +992,7 @@
 .channel-notification-settings {
     border-bottom: none;
 }
-.flex-horizontal>.flex-spacer {
+.flex-horizontal>.flex-spacer, .theme-dark .chat>.content {
     background-color: #1d232d;
 }
 .form.deprecated .Select-control, .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece, .upload-modal .inner .file .icon.image {
@@ -1097,4 +1101,7 @@
 }
 .primary400-1OkqpL {
     color: #00b0f4;
+}
+.connecting {
+    background: #000615;
 }
