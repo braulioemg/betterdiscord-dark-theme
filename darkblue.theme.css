@@ -1,4 +1,4 @@
-//META{"name":"Dark Blue Theme","description":"Dark, blue theme for BetterDiscord","author":"redslime#8503","version":"1.2"}*//
+//META{"name":"Dark Blue Theme","description":"Dark, blue theme for BetterDiscord","author":"redslime#8503","version":"1.3"}*//
 @-webkit-keyframes line {  
   0% { border-color: #00b0f4; }
   33% { border-color: #00ff6f; }
@@ -397,14 +397,11 @@
 #user-profile-modal .header .header-info .header-info-inner .activity {
     color: #9ed0ff;
 }
-.status-dnd {
+.status-dnd, .statusDnd-35xAXU {
     background-color: #fe080b;
 }
-.status-online {
+.status-online, .statusOnline-1Mp2_H {
     background-color: #00ff6f;
-}
-.status-idle {
-    background-color: rgb(244, 121, 31);
 }
 #user-profile-modal .guilds .section .connected-accounts .connected-account {
     border: 1px solid #191b1f;
@@ -674,7 +671,7 @@
     color: #5494f1;
 }
 .guilds-wrapper .guilds .guild.selected:before {
-    background: #00b0f4;
+    background: #00b0f4 !important;
 }
 .theme-dark .search-results-wrap {
     background-color: #0c1119;
@@ -868,21 +865,25 @@
     border-left: 3px solid #00b0f4;
     border-radius: 3px;
 }
-.user-popout .header {
+.user-popout .header, .headerNormal-1cioxU, .footer-2J5zqP, .headerStreaming-3F-wjT {
     background: #0c1638;
 }
-.user-popout .avatar-wrapper .avatar-popout {
+.user-popout .avatar-wrapper .avatar-popout, .avatarNormal-3luwna, .avatarStreaming-1ZydJV {
     border: 4px solid #0c1638;
     background-color: #0c1638;
+}
+.header-3mZJcV .avatarStatusNormal-1OXVjG {
+    border-color: transparent;
 }
 .user-popout .avatar-wrapper .avatar-hint {
     box-shadow: inset 0 0 120px #0c1638;
 }
-.user-popout .body {
+.user-popout .body, .body-3rkFrF {
     background: #0f1c46;
 }
-.user-popout .footer {
+.user-popout .footer, .body-3rkFrF {
     border-top: 1px solid #0c1638;
+    border-bottom: 1px solid #0c1638;
 }
 .quick-message {
     border: 1px solid #132150;
@@ -1039,7 +1040,7 @@
 .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day-name, .theme-light .ui-calendar-picker .react-datepicker__day-name {
     color: #1d95c3;
 }
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--next, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous {
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--next, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous, .header-3mZJcV .avatarStatusStreaming-3lGjGk, .theme-dark .private-channel-call.minimum .private-channel-call-actions .center, .theme-dark .private-channel-call.minimum .private-channel-call-actions .side {
     border-color: transparent;
 }
 .theme-light .ui-calendar-picker .react-datepicker__day--outside-month,
@@ -1084,7 +1085,7 @@
     background-image: none;
     padding: 0;
 }
-.user-popout .header.streaming .live-on-twitch, .user-popout .header.streaming .live-on-twitch:hover {
+.user-popout .header.streaming .live-on-twitch, .user-popout .header.streaming .live-on-twitch:hover, .headerLive-2dDMvp {
     cursor: pointer;
     background: linear-gradient(120deg,#2d1856 0,#162861 100%);
 }
@@ -1104,4 +1105,16 @@
 }
 .connecting {
     background: #000615;
+}
+.wrapper-2xO9RX {
+    background-color: #faa61a;
+    -webkit-animation: unread 2s ease-in-out infinite;
+}
+.theme-dark .ui-video, .theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
+    background-color: #151e2d;
+}
+.headerText-3tKBWq {
+    -webkit-box-align: initial;
+    align-items: initial;
+    text-align: center;
 }
